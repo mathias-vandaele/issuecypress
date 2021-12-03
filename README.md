@@ -9,6 +9,8 @@ Before trying to reproduce the issue, be sure you have http-server installed
 clone the repo, then 
 
 `npm install`
+
+
 `npm run open:server:test` 
 
 And execute the only test available
