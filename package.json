@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "cypress": "^9.1.0",
+    "cypress-iframe": "^1.0.1",
+    "start-server-and-test": "^1.14.0"
+  },
+  "scripts": {
+    "start": "http-server widgetServer -p 5523",
+    "cypress:open": "cypress open",
+    "open:server:test": "start-server-and-test start http://127.0.0.1:5523 cypress:open"
+  }
+}
